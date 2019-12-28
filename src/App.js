@@ -14,7 +14,7 @@ function App() {
           </article>
           <article className="col">
             <div>
-              <h1>Ozan Yıldız</h1>
+              <h1>Ozan Yıldız </h1>
             </div>
           </article>
         </section>
