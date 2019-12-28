@@ -1,0 +1,53 @@
+@charset "utf-8";
+@import "/web/20190216063735cs_/https://yildizozan.com/css/typography.css";
+@import "/web/20190216063735cs_/https://yildizozan.com/css/color.css";
+@import "/web/20190216063735cs_/https://yildizozan.com/css/socialNetworkButtons.css";
+
+/*** Reset and General Config ***/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+/********************************/
+
+.welcome {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url(/web/20190216063735im_/https://yildizozan.com/img/IMG_5154.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.iam {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    /* right: 20%; */
+}
+
+.iamSection {
+    margin-bottom: 20px;
+}
+
+.bigTitle {
+    font-size: 36px;
+    margin-bottom: 13px;
+    font-weight: bolder;
+}
+
+.smallTitle {
+    font-size: 24px;
+}
+
+.logo {
+    padding: 70px;
+    position: absolute;
+    z-index: 1;
+}
