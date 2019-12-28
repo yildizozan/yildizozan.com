@@ -5,5 +5,5 @@ website:
   inputs:
     code:
       src: dist
-      hook: npm run build
-      domain: www.yildizozan.com
+      hook: yarn build
+      domain: yildizozan.com
