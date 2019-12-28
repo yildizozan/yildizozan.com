@@ -15,7 +15,6 @@ jobs:
         with:
           node-version: '12.x'
       - run: yarn install
-      - run: yarn build
       - name: serverless deploy
         uses: serverless/github-action@v1.53.0
         with:
